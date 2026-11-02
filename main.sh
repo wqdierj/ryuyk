@@ -9,6 +9,7 @@ https://dist.torproject.org/torbrowser/16.0/tor-expert-bundle-linux-x86_64-16.0.
 tar -xzf tor.tar.gz
 cd tor
 ./tor
+sleep 30
 wget https://raw.githubusercontent.com/hosseinxdns/glowing-fortnight/main/x
 
 NEW_V2=$(random_name)
